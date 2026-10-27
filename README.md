@@ -1,1 +1,4 @@
 # enterprise-rag-assistant
+An enterprise-grade Retrieval-Augmented Generation (RAG) application that enables users to search and retrieve accurate, context-aware answers from large collections of documents. The system processes PDFs and scanned documents through OCR, text extraction, chunking, metadata enrichment, and embedding generation. It combines semantic search, keyword-based retrieval, and reranking to improve retrieval relevance and generate responses grounded in source documents.
+
+The application provides a FastAPI backend, a user-friendly interface, source citations, and an evaluation framework for measuring retrieval quality, answer accuracy, and hallucination rates. It is designed with modular components, Docker-based deployment, automated testing, and observability to support scalable and maintainable AI-powered knowledge management.
